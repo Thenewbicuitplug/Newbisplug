@@ -1,0 +1,1291 @@
+{
+  "products": [
+    {
+      "id": "classic-box-6",
+      "name": "Classic Box (6 Cookies)",
+      "tagline": "Simple • Delicious • Everyday Fresh-Baked Cookies",
+      "description": "Our everyday staple box. 6 soft, buttery cookies baked fresh daily. Includes our fan-favourite Red Velvet Chocolate Chip and celebratory Funfetti White Chocolate.",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
+      "category": "classic-boxes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Everyday Faves ♡",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 30,
+      "weightGrams": 420,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose mix: Red Velvet Choc Chip / Funfetti White Choc",
+      "rating": 4.9,
+      "reviewCount": 88,
+      "ingredientsSnippet": "Stone-ground flour, real farm butter, cocoa, white chocolate, Belgian chocolate chips, sprinkles"
+    },
+    {
+      "id": "classic-box-12",
+      "name": "Classic Box (12 Cookies)",
+      "tagline": "Simple • Delicious • Shareable 12-Pack (Save R20)",
+      "description": "Double the happiness! 12 fresh everyday cookies featuring Red Velvet Chocolate Chip and Funfetti White Chocolate. Perfect for office treats, study sessions, and family braais.",
+      "price": 120,
+      "originalPrice": 140,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "classic-boxes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Best Value 12-Pack 🍪",
+      "badgeColor": "#d97706",
+      "inStock": true,
+      "stockCount": 25,
+      "weightGrams": 840,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose mix: Red Velvet Choc Chip / Funfetti White Choc",
+      "rating": 5,
+      "reviewCount": 112,
+      "ingredientsSnippet": "Stone-ground flour, real butter, Dutch cocoa, premium chocolate chips, festive funfetti sprinkles"
+    },
+    {
+      "id": "premium-classic-box-6",
+      "name": "Premium Classic Box (6 Cookies)",
+      "tagline": "A little extra • A little more indulgent",
+      "description": "Elevated bakery flavours with generous real fruit, tart berries, and velvety white chocolate. Features Raspberry White Chocolate, White Chocolate Lemon & Blueberry, and Brown Butter Oatmeal Cranberry & White Chocolate.",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "premium-boxes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "A Little Extra ✨",
+      "badgeColor": "#9333ea",
+      "inStock": true,
+      "stockCount": 24,
+      "weightGrams": 480,
+      "isCustomizable": true,
+      "customPlaceholder": "Flavour mix: Raspberry White Choc / Lemon Blueberry / Oatmeal Cranberry",
+      "rating": 5,
+      "reviewCount": 94,
+      "ingredientsSnippet": "Brown butter, rolled oats, dried cranberries, freeze-dried raspberries, fresh lemon zest, blueberries, Belgian white chocolate"
+    },
+    {
+      "id": "premium-classic-box-12",
+      "name": "Premium Classic Box (12 Cookies)",
+      "tagline": "A little extra • A little more indulgent (Save R20)",
+      "description": "The supreme gourmet cookie box. 12 thick, indulgent cookies featuring Raspberry White Chocolate, White Chocolate Lemon & Blueberry, and Brown Butter Oatmeal Cranberry & White Chocolate.",
+      "price": 140,
+      "originalPrice": 160,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "premium-boxes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Luxury 12-Pack 👑",
+      "badgeColor": "#7e22ce",
+      "inStock": true,
+      "stockCount": 18,
+      "weightGrams": 960,
+      "isCustomizable": true,
+      "customPlaceholder": "Flavour mix: Raspberry White Choc / Lemon Blueberry / Oatmeal Cranberry",
+      "rating": 5,
+      "reviewCount": 130,
+      "ingredientsSnippet": "Brown butter, rolled oats, dried cranberries, wild blueberries, raspberries, pure vanilla, white chocolate"
+    },
+    {
+      "id": "house-sprinkle-oreo",
+      "name": "Sprinkle Oreo Cookie",
+      "tagline": "Big Signature House Cookie packed with crushed Oreos & party sprinkles",
+      "description": "Our iconic house cookie! Golden vanilla dough folded with chunky crushed Oreos and rainbow sprinkles, baked to thick chewy perfection.",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "house-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Signature House 🏠",
+      "badgeColor": "#0284c7",
+      "inStock": true,
+      "stockCount": 35,
+      "weightGrams": 130,
+      "rating": 4.9,
+      "reviewCount": 82,
+      "ingredientsSnippet": "Pasture butter, stone-ground flour, real Oreo cookies, rainbow nonpareils, Madagascar vanilla"
+    },
+    {
+      "id": "house-chai-white-chocolate",
+      "name": "Chai White Chocolate Cookie",
+      "tagline": "Aromatic spiced chai dough studded with creamy Belgian white chocolate",
+      "description": "Warm, cozy house signature cookie infused with freshly ground cinnamon, cardamom, ginger, cloves, and pools of melted Belgian white chocolate.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "house-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Warm & Cozy ☕",
+      "badgeColor": "#b45309",
+      "inStock": true,
+      "stockCount": 22,
+      "weightGrams": 135,
+      "rating": 4.8,
+      "reviewCount": 65,
+      "ingredientsSnippet": "Stone-ground flour, butter, brown sugar, organic chai spices (cardamom, cinnamon, clove), Belgian white chocolate"
+    },
+    {
+      "id": "house-white-choc-caramel",
+      "name": "White Chocolate & Caramel Cookie",
+      "tagline": "Rich buttery dough with silky caramel puddles & sweet white chocolate",
+      "description": "An absolute crowd pleaser. Rich golden cookie dough layered with house-cooked caramel swirls and chunky melted white chocolate drops.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "category": "house-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Gooey Caramel 🍯",
+      "badgeColor": "#d97706",
+      "inStock": true,
+      "stockCount": 28,
+      "weightGrams": 135,
+      "rating": 4.9,
+      "reviewCount": 91,
+      "ingredientsSnippet": "Real butter, dulce de leche caramel swirl, white chocolate chunks, cane sugar, sea salt"
+    },
+    {
+      "id": "house-chocolate-smores",
+      "name": "Chocolate S’mores Cookie",
+      "tagline": "Fudgy dark cocoa base, toasted marshmallows & biscuit graham crunch",
+      "description": "Campfire nostalgia in a giant cookie! Rich dark chocolate dough loaded with gooey marshmallows, chocolate chunks, and crunchy biscuit crumb.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80",
+      "category": "house-cookies",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Toasted Mallow 🔥",
+      "badgeColor": "#78350f",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 140,
+      "rating": 5,
+      "reviewCount": 104,
+      "ingredientsSnippet": "Dutch cocoa, 70% dark chocolate callets, gelatin-free toasted marshmallows, biscuit crumble"
+    },
+    {
+      "id": "house-strawberry-shortcake",
+      "name": "Strawberry Shortcake Cookie",
+      "tagline": "Tender buttery shortcake dough, real strawberry swirls & crumb",
+      "description": "Sweet, fruity, and nostalgic. Made with butter shortcake dough, white chocolate, and sweet strawberry crunch streusel reminiscent of summer.",
+      "price": 32,
+      "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=800&q=80",
+      "category": "house-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Sweet Berry 🍓",
+      "badgeColor": "#e11d48",
+      "inStock": true,
+      "stockCount": 26,
+      "weightGrams": 130,
+      "rating": 4.9,
+      "reviewCount": 76,
+      "ingredientsSnippet": "Butter shortcake dough, real strawberry conserve, white chocolate, golden crumble topping"
+    },
+    {
+      "id": "mini-house-box-6",
+      "name": "Mini House Box (6 Mini Cookies)",
+      "tagline": "Smaller versions of our House Cookies • Choose up to 3 flavours",
+      "description": "Bite-sized perfection! 6 mini versions of our signature House Cookies. Customise your box with up to 3 flavours: Sprinkle Oreo, Chai White Choc, White Choc & Caramel, Chocolate S’mores, Strawberry Shortcake.",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "mini-house-boxes",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Mini Cuties (6-Pack) 🎀",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 22,
+      "weightGrams": 360,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose up to 3 flavours: Sprinkle Oreo, Chai White Choc, Caramel, Smores, Strawberry",
+      "rating": 4.9,
+      "reviewCount": 73,
+      "ingredientsSnippet": "Assortment of fresh House Cookie doughs, Belgian chocolate, Oreos, caramel, spices, marshmallows"
+    },
+    {
+      "id": "mini-house-box-12",
+      "name": "Mini House Box (12 Mini Cookies)",
+      "tagline": "Smaller versions of our House Cookies • Choose 4–5 flavours",
+      "description": "The ultimate sampler party crate! 12 mini versions of our signature House Cookies. Mix and match 4 to 5 flavours from our House selection.",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "mini-house-boxes",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Party Platter (12-Pack) 🥳",
+      "badgeColor": "#db2777",
+      "inStock": true,
+      "stockCount": 16,
+      "weightGrams": 720,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose 4-5 flavours: Sprinkle Oreo, Chai White Choc, Caramel, Smores, Strawberry",
+      "rating": 5,
+      "reviewCount": 95,
+      "ingredientsSnippet": "Assortment of fresh House Cookie doughs, Belgian chocolate, Oreos, caramel, spices, marshmallows"
+    },
+    {
+      "id": "decadent-rolo-brownie",
+      "name": "Rolo Brownie Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with gooey molten Nestlé Rolo caramels",
+      "description": "Fudgy dark brownie cookie stuffed with melted Nestlé Rolo chocolates that burst with gooey caramel when warm. Pure chocolate bliss.",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Molten Rolo 🍫",
+      "badgeColor": "#b45309",
+      "inStock": true,
+      "stockCount": 25,
+      "weightGrams": 160,
+      "rating": 4.9,
+      "reviewCount": 88,
+      "ingredientsSnippet": "Valrhona cocoa, pasture butter, real Nestlé Rolo chocolates, brown sugar, free-range eggs"
+    },
+    {
+      "id": "decadent-chocolate-biscoff",
+      "name": "Chocolate Biscoff Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with dark chocolate & molten Biscoff speculoos core",
+      "description": "Deep Dutch chocolate cookie dough wrapped around a frozen sphere of Lotus Biscoff spread, topped with crunchy Lotus biscuit shards.",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Biscoff Stuffed 🤎",
+      "badgeColor": "#d97706",
+      "inStock": true,
+      "stockCount": 22,
+      "weightGrams": 165,
+      "rating": 5,
+      "reviewCount": 114,
+      "ingredientsSnippet": "Dutch cocoa, Lotus Biscoff cream, Speculoos biscuits, Belgian dark chocolate, butter"
+    },
+    {
+      "id": "decadent-espresso-fudge",
+      "name": "Espresso Fudge Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with Karoo espresso and silky dark chocolate fudge",
+      "description": "Infused with double-shot freshly brewed espresso and filled with dense dark chocolate fudge. Sophisticated, dark, and intensely rich.",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Espresso Shot ☕",
+      "badgeColor": "#3b0764",
+      "inStock": true,
+      "stockCount": 19,
+      "weightGrams": 160,
+      "rating": 4.8,
+      "reviewCount": 67,
+      "ingredientsSnippet": "Espresso roast beans, 70% dark chocolate fudge core, Dutch cocoa, brown butter"
+    },
+    {
+      "id": "decadent-biscoff-cheesecake",
+      "name": "Biscoff Cheesecake Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with tangy baked cheesecake & Biscoff swirl",
+      "description": "A match made in heaven. Spiced brown butter cookie with a velvety cream cheese cheesecake core and molten caramelized Lotus speculoos.",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Cheesecake Core 🍰",
+      "badgeColor": "#f59e0b",
+      "inStock": true,
+      "stockCount": 24,
+      "weightGrams": 165,
+      "rating": 5,
+      "reviewCount": 99,
+      "ingredientsSnippet": "Philadelphia style cream cheese, Lotus Biscoff, brown sugar, Madagascar vanilla, butter dough"
+    },
+    {
+      "id": "decadent-ferrero-rocher",
+      "name": "Ferrero Rocher Deluxe Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with whole Ferrero Rocher & toasted hazelnut praline",
+      "description": "Pure luxury. Golden hazelnut cocoa dough wrapping a whole Ferrero Rocher chocolate, bathed in Nutella and roasted Piedmont hazelnuts.",
+      "price": 69,
+      "image": "https://images.unsplash.com/photo-1618923834413-2770b904ee10?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Contains Nuts"
+      ],
+      "memeBadge": "Crown Jewel 👑",
+      "badgeColor": "#ca8a04",
+      "inStock": true,
+      "stockCount": 15,
+      "weightGrams": 175,
+      "rating": 5,
+      "reviewCount": 148,
+      "ingredientsSnippet": "Whole Ferrero Rocher, roasted hazelnuts, Nutella core, Belgian milk chocolate, golden butter dough"
+    },
+    {
+      "id": "decadent-kinder",
+      "name": "Kinder Chocolate Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with smooth Kinder milk cream chocolate bars",
+      "description": "Stuffed with whole Kinder chocolate bars that melt into silky sweet milk chocolate cream when heated. Loved by kids and adults alike!",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Kinder Melt 🥛",
+      "badgeColor": "#0ea5e9",
+      "inStock": true,
+      "stockCount": 26,
+      "weightGrams": 160,
+      "rating": 4.9,
+      "reviewCount": 92,
+      "ingredientsSnippet": "Kinder chocolate bars, sweet milk chocolate callets, pasture butter, golden cane sugar"
+    },
+    {
+      "id": "decadent-snickers",
+      "name": "Snickers Loaded Stuffed Cookie",
+      "tagline": "Big • Stuffed • Loaded with salted caramel, roasted peanuts & nougat fudge",
+      "description": "Chunky roasted peanuts, thick gooey caramel, chewy nougat, and milk chocolate folded into our rich dough. Unapologetically satisfying.",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Contains Nuts"
+      ],
+      "memeBadge": "Peanut Loaded 🥜",
+      "badgeColor": "#92400e",
+      "inStock": true,
+      "stockCount": 18,
+      "weightGrams": 170,
+      "rating": 4.9,
+      "reviewCount": 84,
+      "ingredientsSnippet": "Roasted salted peanuts, Snickers chunks, gooey caramel treat, nougat center, chocolate chunks"
+    },
+    {
+      "id": "decadent-froot-loop-cheesecake-scoop",
+      "name": "Froot Loop Cheesecake Scoop Cookie",
+      "tagline": "Scoop cookie crowned with sweet cream cheese frosting & vibrant Froot Loops",
+      "description": "Playful and nostalgic! Thick vanilla cookie topped with a generous bakery scoop of sweet cream cheese frosting and crispy rainbow Froot Loops.",
+      "price": 35,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "decadent-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Nostalgia Scoop 🥣",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 145,
+      "rating": 4.8,
+      "reviewCount": 61,
+      "ingredientsSnippet": "Vanilla cookie dough, cream cheese buttercream scoop, crunchy Kellogg’s Froot Loops"
+    },
+    {
+      "id": "mini-decadent-box-6",
+      "name": "Mini Decadent Box (6 Stuffed Minis)",
+      "tagline": "Smaller versions of our Decadent Stuffed Cookies • Choose up to 3 flavours",
+      "description": "6 miniature loaded stuffed cookies! Same molten centres and lavish toppings in cute shareable sizes. Choose up to 3 flavours: Rolo Brownie, Chocolate Biscoff, Espresso Fudge, Biscoff Cheesecake, Kinder, Snickers.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1618923834413-2770b904ee10?auto=format&fit=crop&w=800&q=80",
+      "category": "mini-decadent-boxes",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Molten Minis (6-Pack) 🍫",
+      "badgeColor": "#831843",
+      "inStock": true,
+      "stockCount": 16,
+      "weightGrams": 480,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose up to 3 flavours: Rolo, Choc Biscoff, Espresso, Cheesecake, Kinder, Snickers",
+      "rating": 5,
+      "reviewCount": 96,
+      "ingredientsSnippet": "Assortment of decadent mini doughs stuffed with molten caramel, hazelnut, Biscoff and cheesecake centres"
+    },
+    {
+      "id": "mini-decadent-box-12",
+      "name": "Mini Decadent Box (12 Stuffed Minis)",
+      "tagline": "Smaller versions of our Decadent Stuffed Cookies • Choose up to 4 flavours",
+      "description": "12 miniature loaded stuffed cookies in our luxury bakery box. Choose up to 4 flavours from our Decadent Stuffed collection.",
+      "price": 280,
+      "originalPrice": 300,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "mini-decadent-boxes",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Party Showstopper (12-Pack) 🎁",
+      "badgeColor": "#701a75",
+      "inStock": true,
+      "stockCount": 12,
+      "weightGrams": 960,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose up to 4 flavours: Rolo, Choc Biscoff, Espresso, Cheesecake, Kinder, Snickers",
+      "rating": 5,
+      "reviewCount": 124,
+      "ingredientsSnippet": "Assortment of decadent mini doughs stuffed with molten caramel, hazelnut, Biscoff and cheesecake centres"
+    },
+    {
+      "id": "melting-moments-nougat-medium-12",
+      "name": "Nougat & White Chocolate Melting Moments (12 Medium)",
+      "tagline": "12 Medium buttery shortbreads sandwiched with honey nougat cream & white chocolate",
+      "description": "Delicate cornflour shortbread biscuits that melt on your tongue, filled with whipped South African honey nougat buttercream and white chocolate drizzle.",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "melting-moments",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Melts on Tongue 🤍",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 420,
+      "rating": 4.9,
+      "reviewCount": 78,
+      "ingredientsSnippet": "Pure butter, icing sugar, cornflour, free-range eggs, honey nougat paste, Belgian white chocolate"
+    },
+    {
+      "id": "melting-moments-nougat-small-12",
+      "name": "Nougat & White Chocolate Melting Moments (12 Small)",
+      "tagline": "12 Small delicate biscuits filled with honey nougat cream & white chocolate",
+      "description": "Bite-sized high-tea favourites! 12 petite melting moments packed in our gift box with honey nougat cream filling.",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=800&q=80",
+      "category": "melting-moments",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "High Tea Petite 🫖",
+      "badgeColor": "#f43f5e",
+      "inStock": true,
+      "stockCount": 25,
+      "weightGrams": 260,
+      "rating": 4.9,
+      "reviewCount": 65,
+      "ingredientsSnippet": "Pure butter, cornflour, honey nougat cream, white chocolate drizzle, vanilla bean"
+    },
+    {
+      "id": "melting-moments-choc-dipped-12",
+      "name": "Chocolate-Dipped Melting Moments (12 Pack)",
+      "tagline": "12 classic melt-in-mouth biscuits half-dipped in rich dark chocolate",
+      "description": "Crisp, velvety butter shortbread sandwiches half dipped in glossy Belgian chocolate. An unbeatable afternoon tea treat.",
+      "price": 55,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "melting-moments",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Half-Dipped Classic 🍫",
+      "badgeColor": "#451a03",
+      "inStock": true,
+      "stockCount": 30,
+      "weightGrams": 300,
+      "rating": 4.8,
+      "reviewCount": 89,
+      "ingredientsSnippet": "Farm butter, cornflour, powdered sugar, Belgian dark chocolate dip, vanilla extract"
+    },
+    {
+      "id": "biscoff-millionaires-4",
+      "name": "Biscoff Millionaires (Box of 4)",
+      "tagline": "Rich, buttery biscuit base layered with golden caramel and Biscoff goodness",
+      "description": "Next-level millionaires! Crunchy shortbread base, thick gooey cooked caramel middle layer, and topped with a creamy Lotus Biscoff speculoos chocolate crown.",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "biscoff-millionaires",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Caramel & Biscoff 🤎",
+      "badgeColor": "#b45309",
+      "inStock": true,
+      "stockCount": 28,
+      "weightGrams": 280,
+      "rating": 5,
+      "reviewCount": 110,
+      "ingredientsSnippet": "Shortbread butter base, condensed milk caramel, Lotus Biscoff spread, Belgian chocolate, Speculoos crumbs"
+    },
+    {
+      "id": "biscoff-millionaires-10",
+      "name": "Biscoff Millionaires (Box of 10)",
+      "tagline": "10 slabs of buttery biscuit, gooey caramel & Biscoff chocolate",
+      "description": "Shareable box of 10 thick Biscoff millionaires slabs. Cut into generous squares and sealed fresh.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "biscoff-millionaires",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Best Seller 10-Pack ⭐",
+      "badgeColor": "#d97706",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 700,
+      "rating": 5,
+      "reviewCount": 142,
+      "ingredientsSnippet": "Shortbread butter base, condensed milk caramel, Lotus Biscoff spread, Belgian chocolate, Speculoos crumbs"
+    },
+    {
+      "id": "biscoff-millionaires-20",
+      "name": "Biscoff Millionaires (Crate of 20)",
+      "tagline": "20 generous slabs for parties, events & corporate catering",
+      "description": "The party platter! 20 freshly cut slabs of our legendary Biscoff millionaires in a stylish catering box.",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "biscoff-millionaires",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Catering Platter 👑",
+      "badgeColor": "#78350f",
+      "inStock": true,
+      "stockCount": 10,
+      "weightGrams": 1400,
+      "rating": 5,
+      "reviewCount": 65,
+      "ingredientsSnippet": "Shortbread butter base, condensed milk caramel, Lotus Biscoff spread, Belgian chocolate, Speculoos crumbs"
+    },
+    {
+      "id": "original-lamingtons-6",
+      "name": "Original Classic Lamingtons (Box of 6)",
+      "tagline": "Traditional light sponge dipped in dark chocolate glaze & fine coconut",
+      "description": "Fluffy, cloud-like vanilla sponge cakes dipped in rich chocolate syrup and heavily rolled in fine desiccated coconut.",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "category": "lamingtons",
+      "dietary": [
+        "Halal Friendly",
+        "Traditional"
+      ],
+      "memeBadge": "Mzansi Classic 🍰",
+      "badgeColor": "#059669",
+      "inStock": true,
+      "stockCount": 25,
+      "weightGrams": 300,
+      "rating": 4.8,
+      "reviewCount": 77,
+      "ingredientsSnippet": "Light sponge, Dutch cocoa glaze, fine desiccated coconut, vanilla bean"
+    },
+    {
+      "id": "original-lamingtons-12",
+      "name": "Original Classic Lamingtons (Box of 12)",
+      "tagline": "12 Traditional light chocolate sponge squares (Save R10)",
+      "description": "12 traditional cloud-soft chocolate-dipped sponge cubes rolled in snow-white coconut.",
+      "price": 80,
+      "originalPrice": 90,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "category": "lamingtons",
+      "dietary": [
+        "Halal Friendly",
+        "Traditional"
+      ],
+      "memeBadge": "12-Pack Value 🇿🇦",
+      "badgeColor": "#047857",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 600,
+      "rating": 4.9,
+      "reviewCount": 98,
+      "ingredientsSnippet": "Light sponge, Dutch cocoa glaze, fine desiccated coconut, vanilla bean"
+    },
+    {
+      "id": "flavoured-lamingtons-6",
+      "name": "Flavoured Gourmet Lamingtons (Box of 6)",
+      "tagline": "Choose flavours: Biscoff, White Choc, Red Velvet, Peppermint Crisp & more",
+      "description": "South African lamingtons reimagined! 6 gourmet squares in your choice of flavours: Biscoff, White Chocolate, Red Velvet, Toasted Coconut, Fairy Bread, Peppermint Crisp, Oreo, or Original.",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=800&q=80",
+      "category": "lamingtons",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Gourmet Remix 🎀",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 22,
+      "weightGrams": 360,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose flavours: Biscoff, White Choc, Red Velvet, Fairy Bread, Peppermint Crisp, Oreo",
+      "rating": 5,
+      "reviewCount": 115,
+      "ingredientsSnippet": "Sponge cake, flavored ganache glazes, fine coconut, crushed Peppermint Crisp, Oreos, Lotus crumbs"
+    },
+    {
+      "id": "flavoured-lamingtons-12",
+      "name": "Flavoured Gourmet Lamingtons (Box of 12)",
+      "tagline": "12 Gourmet remix lamingtons • Mix and match any flavours (Save R10)",
+      "description": "12 gourmet lamingtons! Choose any combination of: Original, Biscoff, White Chocolate, Red Velvet, Toasted Coconut, Fairy Bread, Peppermint Crisp, Oreo.",
+      "price": 140,
+      "originalPrice": 150,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "lamingtons",
+      "dietary": [
+        "Halal Friendly"
+      ],
+      "memeBadge": "Party Box (12) ✨",
+      "badgeColor": "#be185d",
+      "inStock": true,
+      "stockCount": 18,
+      "weightGrams": 720,
+      "isCustomizable": true,
+      "customPlaceholder": "Choose flavours: Biscoff, White Choc, Red Velvet, Fairy Bread, Peppermint Crisp, Oreo",
+      "rating": 5,
+      "reviewCount": 132,
+      "ingredientsSnippet": "Sponge cake, flavored ganache glazes, fine coconut, crushed Peppermint Crisp, Oreos, Lotus crumbs"
+    },
+    {
+      "id": "sunday-cinnamon-rolls-classic-3",
+      "name": "Sunday Cinnamon Rolls (Classic 3-Pack)",
+      "tagline": "Warm pillowy brioche dough swirled with brown sugar cinnamon & cream cheese glaze",
+      "description": "Available Sundays only! 3 giant, fluffy brioche cinnamon rolls dripping with vanilla cream cheese icing. Pre-order for your weekend treat.",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "sunday-cinnamon-rolls",
+      "dietary": [
+        "Halal Friendly",
+        "Sundays Only"
+      ],
+      "memeBadge": "Sundays Only 🌀",
+      "badgeColor": "#d97706",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 450,
+      "rating": 5,
+      "reviewCount": 140,
+      "ingredientsSnippet": "Fluffy brioche dough, cinnamon sugar butter swirl, cream cheese glaze, vanilla bean"
+    },
+    {
+      "id": "sunday-cinnamon-rolls-nutella-3",
+      "name": "Sunday Cinnamon Rolls with Nutella Drizzle (3-Pack)",
+      "tagline": "Classic fluffy cinnamon rolls generously smothered in warm Nutella (+R30)",
+      "description": "Available Sundays only! 3 giant rolls drenched in cream cheese glaze and warm liquid Nutella hazelnut spread.",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1618923834413-2770b904ee10?auto=format&fit=crop&w=800&q=80",
+      "category": "sunday-cinnamon-rolls",
+      "dietary": [
+        "Halal Friendly",
+        "Contains Nuts",
+        "Sundays Only"
+      ],
+      "memeBadge": "Nutella Smothered 🍫",
+      "badgeColor": "#831843",
+      "inStock": true,
+      "stockCount": 15,
+      "weightGrams": 520,
+      "rating": 5,
+      "reviewCount": 105,
+      "ingredientsSnippet": "Brioche dough, cinnamon butter, cream cheese glaze, warm Nutella hazelnut cream"
+    },
+    {
+      "id": "sunday-cinnamon-rolls-biscoff-3",
+      "name": "Sunday Cinnamon Rolls with Biscoff Spread (3-Pack)",
+      "tagline": "Classic fluffy cinnamon rolls topped with warm Biscoff & Speculoos crumb (+R30)",
+      "description": "Available Sundays only! 3 giant cinnamon rolls loaded with warm melted Lotus Biscoff and crunchy Speculoos biscuit crumble.",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "sunday-cinnamon-rolls",
+      "dietary": [
+        "Halal Friendly",
+        "Sundays Only"
+      ],
+      "memeBadge": "Biscoff Drip 🍯",
+      "badgeColor": "#b45309",
+      "inStock": true,
+      "stockCount": 15,
+      "weightGrams": 520,
+      "rating": 5,
+      "reviewCount": 118,
+      "ingredientsSnippet": "Brioche dough, cinnamon butter, cream cheese glaze, melted Lotus Biscoff speculoos spread, lotus crumb"
+    },
+    {
+      "id": "cookie-pie-whole",
+      "name": "Chocolate Fudge Cookie Pie (Whole Bento Pie)",
+      "tagline": "Generously stuffed bento-sized pie layered with brownie cookie, fudge, brownie pieces & caramel/Rolo",
+      "description": "The heavyweight champion! A generously stuffed bento-sized cookie pie layered with brownie cookie dough, molten chocolate fudge, fudgy brownie pieces, and caramel Rolo goodness. Serves 4-6 (or one very determined sweet tooth).",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "category": "cookie-pie",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Whole Bento Pie 🥧",
+      "badgeColor": "#701a75",
+      "inStock": true,
+      "stockCount": 12,
+      "weightGrams": 850,
+      "rating": 5,
+      "reviewCount": 165,
+      "ingredientsSnippet": "Brownie cookie dough crust, thick chocolate fudge, baked brownie bites, caramel swirl, Nestlé Rolo pieces"
+    },
+    {
+      "id": "cookie-pie-slice",
+      "name": "Chocolate Fudge Cookie Pie (Generous Slice)",
+      "tagline": "Thick wedge of our brownie cookie pie with fudge, brownie pieces & Rolo caramel",
+      "description": "A generous slice of our decadent cookie pie. Pop it in the microwave for 20 seconds and watch the fudge and Rolo caramel flow.",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "category": "cookie-pie",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Molten Slice 🍰",
+      "badgeColor": "#86198f",
+      "inStock": true,
+      "stockCount": 24,
+      "weightGrams": 200,
+      "rating": 4.9,
+      "reviewCount": 88,
+      "ingredientsSnippet": "Brownie cookie dough crust, chocolate fudge, brownie chunks, caramel swirl, Rolo chocolates"
+    },
+    {
+      "id": "dot-cakes-xs-10",
+      "name": "Dot Cakes (Extra Small - Box of 10)",
+      "tagline": "Bite-sized mini dot cakes • R10 each (Minimum order of 10 = R100)",
+      "description": "Adorably tiny, bite-sized mini cakes! Tender cake spheres with smooth glaze. Minimum order of 10. Perfect for party favors and dessert bars. Custom stickers available upon request.",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "category": "dot-cakes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Mini Dot Cakes 🎂",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 20,
+      "weightGrams": 300,
+      "isCustomizable": true,
+      "customPlaceholder": "Custom sticker note or party theme (optional)",
+      "rating": 4.8,
+      "reviewCount": 54,
+      "ingredientsSnippet": "Vanilla butter cake, pastel chocolate glaze, candy pearls, rainbow sprinkles"
+    },
+    {
+      "id": "dot-cakes-standard-10",
+      "name": "Dot Cakes (Standard Size - Box of 10)",
+      "tagline": "Classic dot cakes • R14 each (Minimum order of 10 = R140)",
+      "description": "Moist, decadent individual dot cakes dipped in pastel chocolate. Minimum order of 10. Custom stickers available at an additional charge.",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "category": "dot-cakes",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Standard Dot Cakes 🎉",
+      "badgeColor": "#db2777",
+      "inStock": true,
+      "stockCount": 18,
+      "weightGrams": 450,
+      "isCustomizable": true,
+      "customPlaceholder": "Custom sticker note or party theme (optional)",
+      "rating": 4.9,
+      "reviewCount": 72,
+      "ingredientsSnippet": "Vanilla butter cake, pastel chocolate glaze, candy pearls, rainbow sprinkles"
+    },
+    {
+      "id": "froot-loop-cookie-dough-square-single",
+      "name": "Froot Loop Cookie Dough Square (Single)",
+      "tagline": "Heat-treated safe edible cookie dough bar packed with crispy Froot Loops",
+      "description": "Safe to eat raw! Crafted with heat-treated flour and zero eggs. Packed with crushed Froot Loops and white chocolate drizzle in a fudge-like dough square.",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "edible-cookie-dough",
+      "dietary": [
+        "Halal Friendly",
+        "Egg-Free",
+        "Safe to Eat Raw"
+      ],
+      "memeBadge": "Edible Dough 🥣",
+      "badgeColor": "#06b6d4",
+      "inStock": true,
+      "stockCount": 40,
+      "weightGrams": 80,
+      "rating": 4.9,
+      "reviewCount": 68,
+      "ingredientsSnippet": "Heat-treated flour, pasture butter, condensed milk, vanilla, Kellogg’s Froot Loops, white chocolate"
+    },
+    {
+      "id": "froot-loop-cookie-dough-squares-6",
+      "name": "Froot Loop Cookie Dough Squares (Box of 6)",
+      "tagline": "Box of 6 edible cookie dough squares (R25 each = R150)",
+      "description": "6 bars of safe-to-eat edible cookie dough squares loaded with Kellogg’s Froot Loops and white chocolate drizzle.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "edible-cookie-dough",
+      "dietary": [
+        "Halal Friendly",
+        "Egg-Free",
+        "Safe to Eat Raw"
+      ],
+      "memeBadge": "6-Pack Dough Box 🌈",
+      "badgeColor": "#0891b2",
+      "inStock": true,
+      "stockCount": 25,
+      "weightGrams": 480,
+      "rating": 5,
+      "reviewCount": 93,
+      "ingredientsSnippet": "Heat-treated flour, pasture butter, condensed milk, vanilla, Kellogg’s Froot Loops, white chocolate"
+    },
+    {
+      "id": "froot-loop-cookie-dough-pretzels-10",
+      "name": "Froot Loop Cookie Dough Pretzels (10 Pack)",
+      "tagline": "10 Crispy salted pretzels sandwiched with edible cookie dough & Froot Loops",
+      "description": "The ultimate sweet-and-salty crunch! Crispy salted pretzel twists sandwiched with safe-to-eat Froot Loop cookie dough and dipped in pastel glaze.",
+      "price": 37,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "edible-cookie-dough",
+      "dietary": [
+        "Halal Friendly",
+        "Egg-Free",
+        "Sweet & Salty"
+      ],
+      "memeBadge": "Sweet & Salty 🥨",
+      "badgeColor": "#0284c7",
+      "inStock": true,
+      "stockCount": 30,
+      "weightGrams": 200,
+      "rating": 4.9,
+      "reviewCount": 84,
+      "ingredientsSnippet": "Salted mini pretzel twists, edible cookie dough, crunchy Froot Loops, white chocolate coating"
+    },
+    {
+      "id": "custom-sassy-stamped",
+      "name": "Personalized Sassy Stamped Biscuits (Box of 4)",
+      "tagline": "Say it with butter! Custom cheeky message embossed in pastel glaze",
+      "description": "Need to apologize? Break up? Congratulate your bestie? Propose? Stamp whatever is on your heart (max 24 characters). Comes in our signature retro pink window box with ribbon.",
+      "price": 140,
+      "originalPrice": 160,
+      "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80",
+      "category": "custom-message",
+      "dietary": [
+        "Custom Stamped",
+        "Halal Friendly"
+      ],
+      "memeBadge": "Custom Stamped 💌",
+      "badgeColor": "#db2777",
+      "inStock": true,
+      "stockCount": 30,
+      "weightGrams": 240,
+      "isCustomizable": true,
+      "customPlaceholder": "e.g. DUMP HIM / BESTIE VIBES / SLAY QUEEN",
+      "rating": 5,
+      "reviewCount": 210,
+      "ingredientsSnippet": "Vanilla shortbread, royal icing, French vanilla bean, powdered sugar, edible gold dust"
+    },
+    {
+      "id": "nyc-choc-chip",
+      "name": "Classic NYC Thicc Choc Chip",
+      "tagline": "160g of pure serotonin, gooey center with 70% dark Belgian chocolate",
+      "description": "Our viral signature cookie. Golden, crisp exterior with a warm molten center packed with double Belgian chocolate chunks and sprinkled with Maldon sea salt flakes. Heat for 15s in the microwave and prepare to see God.",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80",
+      "category": "stuffed-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Emotional Support Cookie",
+      "badgeColor": "#ec4899",
+      "inStock": true,
+      "stockCount": 28,
+      "weightGrams": 160,
+      "isCustomizable": false,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "ingredientsSnippet": "Stone-ground flour, pasture butter, Belgian 70% chocolate, brown sugar, organic eggs, Maldon salt"
+    },
+    {
+      "id": "biscoff-lava-bomb",
+      "name": "Lotus Biscoff Molten Cookie",
+      "tagline": "Stuffed with molten Biscoff spread and topped with caramelized lotus crumb",
+      "description": "She is that girl. Rich spiced brown butter cookie dough injected with a generous tablespoon of creamy Biscoff spread, crowned with a crunchy Speculoos biscuit. Zero regrets, 100% main character energy.",
+      "price": 52,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+      "category": "stuffed-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Vegetarian"
+      ],
+      "memeBadge": "Main Character Energy",
+      "badgeColor": "#f59e0b",
+      "inStock": true,
+      "stockCount": 19,
+      "weightGrams": 170,
+      "isCustomizable": false,
+      "rating": 5,
+      "reviewCount": 98,
+      "ingredientsSnippet": "Flour, butter, genuine Lotus Biscoff speculoos cream, white chocolate, brown sugar, cinnamon"
+    },
+    {
+      "id": "melktert-biscuit-pocket",
+      "name": "Mzansi Melktert Cream Pocket",
+      "tagline": "Traditional cinnamon-dusted custard folded inside a crisp shortbread crust",
+      "description": "An Eastern Cape love letter! Flaky buttery shortcrust holding a silky, thick South African milk tart custard center, finished with a heavy blanket of spiced cinnamon. Nostalgia in every single bite.",
+      "price": 48,
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "category": "mzansi-heritage",
+      "dietary": [
+        "Halal Friendly",
+        "Traditional"
+      ],
+      "memeBadge": "Ouma Approved 🇿🇦",
+      "badgeColor": "#065f46",
+      "inStock": true,
+      "stockCount": 22,
+      "weightGrams": 150,
+      "isCustomizable": false,
+      "rating": 4.8,
+      "reviewCount": 76,
+      "ingredientsSnippet": "Real milk, butter, farm cream, cinnamon quills, organic egg yolks, vanilla bean pod, flour"
+    },
+    {
+      "id": "peppermint-crisp-tart-cookie",
+      "name": "Peppermint Crisp Tart Stuffed Monster",
+      "tagline": "Caramel treat, crushed Tennis biscuits & mint cracknel chocolate core",
+      "description": "We took South Africa's favorite dessert and baked it into a giant cookie. Golden dough infused with Bakers Tennis biscuit crumb, stuffed with caramelized condensed milk and genuine Nestlé Peppermint Crisp chocolate shards.",
+      "price": 55,
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "category": "mzansi-heritage",
+      "dietary": [
+        "Halal Friendly",
+        "South African Classic"
+      ],
+      "memeBadge": "Heritage King",
+      "badgeColor": "#059669",
+      "inStock": true,
+      "stockCount": 15,
+      "weightGrams": 175,
+      "isCustomizable": false,
+      "rating": 5,
+      "reviewCount": 114,
+      "ingredientsSnippet": "Caramel Treat, Nestlé Peppermint Crisp, coconut Tennis biscuits, butter, golden syrup, cream"
+    },
+    {
+      "id": "nutella-sinner-drop",
+      "name": "The Nutella Sinner XXL",
+      "tagline": "Warm oozy hazelnut core with roasted crushed hazelnuts on top",
+      "description": "A crime not to order this. Thick chocolate dough wrapped around a frozen ball of Nutella that melts into lava when heated. Dangerously addictive.",
+      "price": 49,
+      "image": "https://images.unsplash.com/photo-1618923834413-2770b904ee10?auto=format&fit=crop&w=800&q=80",
+      "category": "stuffed-cookies",
+      "dietary": [
+        "Halal Friendly",
+        "Contains Nuts"
+      ],
+      "memeBadge": "Therapy in a Box",
+      "badgeColor": "#831843",
+      "inStock": true,
+      "stockCount": 8,
+      "weightGrams": 165,
+      "isCustomizable": false,
+      "rating": 4.9,
+      "reviewCount": 87,
+      "ingredientsSnippet": "Nutella hazelnut spread, roasted Piedmont hazelnuts, Valrhona cocoa, unsalted butter"
+    },
+    {
+      "id": "the-richmond-hill-bundle",
+      "name": "The Richmond Hill 6-Pack Box",
+      "tagline": "Curated box of our top 6 bestsellers in our signature gift crate",
+      "description": "Cannot choose? Get the full Port Elizabeth experience. Includes: 2x NYC Thicc Choc, 1x Biscoff Bomb, 1x Peppermint Crisp Monster, 1x Melktert Pocket & 1x Nutella Sinner. Comes with a reheating guide card.",
+      "price": 275,
+      "originalPrice": 300,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "bundles",
+      "dietary": [
+        "Crowd Pleaser",
+        "Bestseller"
+      ],
+      "memeBadge": "Save R25 Today",
+      "badgeColor": "#dc2626",
+      "inStock": true,
+      "stockCount": 12,
+      "weightGrams": 980,
+      "isCustomizable": false,
+      "rating": 5,
+      "reviewCount": 320,
+      "ingredientsSnippet": "Assortment of all fresh cookie ingredients - sealed airtight for 7 days fresh guarantee"
+    },
+    {
+      "id": "fudge-brownie-slab",
+      "name": "Gooey Valrhona Espresso Brownie Slab",
+      "tagline": "Fudgy, dense espresso-infused dark brownie with crinkle papery top",
+      "description": "Intensely dark, crackly crust with a fudge-like center that sticks to your fork. Baked with double-shot Karoo espresso and 70% dark cocoa.",
+      "price": 42,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "category": "brownies",
+      "dietary": [
+        "Halal Friendly",
+        "Intense Dark Choc"
+      ],
+      "memeBadge": "Dark & Moody",
+      "badgeColor": "#3b0764",
+      "inStock": true,
+      "stockCount": 16,
+      "weightGrams": 140,
+      "isCustomizable": false,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "ingredientsSnippet": "Valrhona cocoa, espresso shot, dark brown sugar, butter, semi-sweet chocolate drops"
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "phone": "0821234567"
+      },
+      "delivery": {
+        "method": "pickup",
+        "cost": 0
+      },
+      "items": [
+        {
+          "productId": "nyc-choc-chip",
+          "name": "Classic NYC Thicc Choc Chip",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 45,
+      "discount": 0,
+      "deliveryFee": 0,
+      "total": 45,
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "id": "TBP-1747",
+      "createdAt": "2026-09-21T12:40:41.956Z",
+      "status": "received",
+      "statusUpdated": "2026-09-21T12:40:41.956Z"
+    },
+    {
+      "id": "TBP-4892",
+      "createdAt": "2026-09-15T11:30:42.859Z",
+      "customer": {
+        "name": "Lerato Khumalo",
+        "email": "lerato@gmail.com",
+        "phone": "082 459 2810"
+      },
+      "delivery": {
+        "method": "courier",
+        "cost": 95,
+        "address": "14 Atholl Oaklands Rd",
+        "suburb": "Melrose",
+        "city": "Johannesburg",
+        "postalCode": "2196",
+        "notes": "Please ring unit 4B buzzer twice"
+      },
+      "items": [
+        {
+          "productId": "the-plug-box-6",
+          "name": "The Plug Box (Best Seller 6-Pack)",
+          "quantity": 1,
+          "price": 270,
+          "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "productId": "biscoff-lava-bomb",
+          "name": "Lotus Biscoff Molten Cookie",
+          "quantity": 2,
+          "price": 52,
+          "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "subtotal": 374,
+      "discount": 37.4,
+      "deliveryFee": 95,
+      "total": 431.6,
+      "promoCode": "BABES10",
+      "paymentMethod": "snapscan",
+      "paymentStatus": "paid",
+      "status": "baking",
+      "statusUpdated": "2026-09-15T12:30:42.859Z"
+    },
+    {
+      "id": "TBP-3901",
+      "createdAt": "2026-09-14T19:30:42.859Z",
+      "customer": {
+        "name": "Chloe van der Merwe",
+        "email": "chloe.vdm@outlook.com",
+        "phone": "071 902 3841"
+      },
+      "delivery": {
+        "method": "pudo",
+        "cost": 60,
+        "address": "PUDO Locker at Engen Kloof",
+        "suburb": "Gardens",
+        "city": "Cape Town",
+        "postalCode": "8001",
+        "pudoLockerLocation": "Engen Kloof Street Locker"
+      },
+      "items": [
+        {
+          "productId": "custom-savage-box-4",
+          "name": "Savage Message Biscuits (Pack of 4)",
+          "quantity": 1,
+          "price": 180,
+          "customMessage": "CONGRATS ON LEAVING THAT TOXIC JOB BESTIE",
+          "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "subtotal": 180,
+      "discount": 0,
+      "deliveryFee": 60,
+      "total": 240,
+      "paymentMethod": "instant-eft",
+      "paymentStatus": "paid",
+      "status": "boxed",
+      "statusUpdated": "2026-09-15T07:30:42.859Z"
+    },
+    {
+      "id": "TBP-2180",
+      "createdAt": "2026-09-13T13:30:42.860Z",
+      "customer": {
+        "name": "Nandi Sithole",
+        "email": "nandi.s@gmail.com",
+        "phone": "083 555 1928"
+      },
+      "delivery": {
+        "method": "pickup",
+        "cost": 0,
+        "address": "Collection at The Biscuit Plug Kitchen (Stanley St)",
+        "suburb": "Richmond Hill",
+        "city": "Port Elizabeth",
+        "postalCode": "6001"
+      },
+      "items": [
+        {
+          "productId": "nyc-choc-chip",
+          "name": "Classic NYC Thicc Choc Chip",
+          "quantity": 4,
+          "price": 45,
+          "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "productId": "mzansi-milktart-cookie",
+          "name": "The Mzansi Milk Tart Cookie",
+          "quantity": 2,
+          "price": 48,
+          "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "subtotal": 276,
+      "discount": 20,
+      "deliveryFee": 0,
+      "total": 256,
+      "promoCode": "GIRLDINNER",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "statusUpdated": "2026-09-14T13:30:42.860Z"
+    }
+  ],
+  "memes": [
+    {
+      "id": "meme-1",
+      "title": "Self-Care in Mzansi",
+      "caption": "My therapist: \"And what did we do instead of texting him?\" Me: \"Ordered 6 stuffed cookies from The Biscuit Plug at 11:42pm and tipped the courier.\"",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+      "likes": 428,
+      "author": "@thando_vibes",
+      "tag": "Relatable",
+      "vibeCookieRecommendation": "Lotus Biscoff Molten Cookie"
+    },
+    {
+      "id": "meme-2",
+      "title": "The \"Girl Dinner\" Formula",
+      "caption": "One iced matcha latte, two cigarettes (metaphorical), and one 160g warm NYC chocolate chip cookie eaten over the kitchen sink.",
+      "image": "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=600&q=80",
+      "likes": 312,
+      "author": "@jess_cpt",
+      "tag": "Girl Dinner",
+      "vibeCookieRecommendation": "Classic NYC Thicc Choc Chip"
+    },
+    {
+      "id": "meme-3",
+      "title": "Corporate Burnout Survival Pack",
+      "caption": "Outlook notification: \"Per my last email...\" Me opening the biscuit tin: \"Per my last mouthful, I do not care.\"",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80",
+      "likes": 589,
+      "author": "@sandton_survivor",
+      "tag": "Work Life",
+      "vibeCookieRecommendation": "Midnight Nutella Lava Bomb"
+    },
+    {
+      "id": "meme-4",
+      "title": "Loadshedding Romance",
+      "caption": "Stage 6 loadshedding hits, candles are lit, microwave does not work... eating the cookie cold like an unhinged Victorian child.",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
+      "likes": 674,
+      "author": "@biscuitplug_official",
+      "tag": "Mzansi Realness",
+      "vibeCookieRecommendation": "The Mzansi Milk Tart Cookie"
+    },
+    {
+      "id": "meme-5",
+      "title": "Stamped Biscuit Savage Energy",
+      "caption": "Customer ordered: \"HAPPY 30TH YOU ANCIENT RELIC\" stamped on 4 heart biscuits for her brother. We love to see family love.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+      "likes": 819,
+      "author": "@theplug_kitchen",
+      "tag": "Custom Bakes",
+      "vibeCookieRecommendation": "Savage Message Biscuits"
+    }
+  ],
+  "settings": {
+    "kitchenName": "The Biscuit Plug - Gqeberha Kitchen",
+    "address": "9th Avenue, Walmer",
+    "suburb": "Walmer",
+    "city": "Gqeberha",
+    "province": "Eastern Cape",
+    "postalCode": "6070",
+    "pickupHours": "Mon - Sat: 10:00 - 16:00",
+    "pickupInstructions": "Collection from our bakery kitchen in Walmer, Gqeberha. Buzzer at gate, warm cookies handed straight to you!",
+    "localDeliveryZoneName": "Gqeberha Door Courier (Nelson Mandela Bay)",
+    "localDeliveryCoverage": "Walmer, Summerstrand, Mill Park, Newton Park & Gqeberha surrounds (1-2 days)",
+    "localDeliveryFee": 70,
+    "pudoLockerLocationDefault": "Engen 10th Ave Walmer Locker, Gqeberha",
+    "phone": "+27 82 894 2011",
+    "whatsappNumber": "27828942011",
+    "nationwideComingSoon": true
+  }
+}
