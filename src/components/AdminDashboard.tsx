@@ -6,7 +6,6 @@ import {
   CheckCircle,
   AlertCircle,
   Plus,
-  Minus,
   Save,
 } from 'lucide-react';
 import { Product } from '../types';
@@ -102,6 +101,7 @@ export function AdminDashboard({
 
       setMessage(`${editingProduct.name} saved successfully.`);
       setEditingProduct(null);
+
       await onRefreshProducts();
     } catch (err: any) {
       setError(err?.message || 'Could not save product.');
@@ -127,25 +127,38 @@ export function AdminDashboard({
         tagline: String(newProduct.tagline || ''),
         description: String(newProduct.description || ''),
         price: Number(newProduct.price || 0),
+
         originalPrice: newProduct.originalPrice
           ? Number(newProduct.originalPrice)
           : undefined,
+
         image: String(newProduct.image || ''),
+
         category: newProduct.category as Product['category'],
+
         dietary: Array.isArray(newProduct.dietary)
           ? newProduct.dietary
           : ['Halal'],
+
         memeBadge: newProduct.memeBadge,
         badgeColor: newProduct.badgeColor,
+
         inStock: newProduct.inStock !== false,
+
         stockCount: Number(newProduct.stockCount || 0),
+
         weightGrams: newProduct.weightGrams
           ? Number(newProduct.weightGrams)
           : undefined,
+
         isCustomizable: Boolean(newProduct.isCustomizable),
+
         customPlaceholder: newProduct.customPlaceholder,
+
         rating: Number(newProduct.rating || 4.9),
+
         reviewCount: Number(newProduct.reviewCount || 0),
+
         ingredientsSnippet: newProduct.ingredientsSnippet,
       };
 
@@ -190,7 +203,7 @@ export function AdminDashboard({
       <div className="min-h-full p-3 sm:p-6 flex items-start justify-center">
         <div className="w-full max-w-5xl bg-[#FFF8F9] rounded-3xl shadow-2xl overflow-hidden">
 
-          {/* Header */}
+          {/* HEADER */}
           <div className="bg-stone-900 text-white px-5 py-4 flex items-center justify-between sticky top-0 z-10">
             <div>
               <div className="text-xs font-bold uppercase tracking-widest text-pink-400">
@@ -203,6 +216,7 @@ export function AdminDashboard({
             </div>
 
             <button
+              type="button"
               onClick={onClose}
               className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center"
               aria-label="Close dashboard"
@@ -211,7 +225,7 @@ export function AdminDashboard({
             </button>
           </div>
 
-          {/* Connection status */}
+          {/* CONNECTION STATUS */}
           <div className="px-5 pt-5">
             <div
               className={`rounded-2xl border p-4 ${
@@ -244,7 +258,7 @@ export function AdminDashboard({
             </div>
           </div>
 
-          {/* Messages */}
+          {/* MESSAGES */}
           <div className="px-5 pt-4">
             {message && (
               <div className="rounded-xl bg-green-100 border border-green-200 text-green-800 px-4 py-3 text-sm font-semibold flex items-center gap-2">
@@ -261,10 +275,11 @@ export function AdminDashboard({
             )}
           </div>
 
-          {/* Controls */}
+          {/* CONTROLS */}
           <div className="px-5 pt-5">
             <div className="flex flex-wrap gap-2">
               <button
+                type="button"
                 onClick={refreshProducts}
                 disabled={refreshing}
                 className="bg-stone-900 text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 disabled:opacity-50"
@@ -274,11 +289,17 @@ export function AdminDashboard({
                     refreshing ? 'animate-spin' : ''
                   }`}
                 />
-                Refresh Products
+
+                {refreshing ? 'Refreshing...' : 'Refresh Products'}
               </button>
 
               <button
-                onClick={() => setShowAddProduct(true)}
+                type="button"
+                onClick={() => {
+                  setError('');
+                  setMessage('');
+                  setShowAddProduct(true);
+                }}
                 className="bg-pink-600 text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2"
               >
                 <Plus className="w-4 h-4" />
@@ -287,7 +308,7 @@ export function AdminDashboard({
             </div>
           </div>
 
-          {/* Add product */}
+          {/* ADD PRODUCT */}
           {showAddProduct && (
             <div className="p-5">
               <div className="bg-white rounded-2xl border border-pink-200 p-5">
@@ -297,14 +318,18 @@ export function AdminDashboard({
                   </h3>
 
                   <button
+                    type="button"
                     onClick={() => setShowAddProduct(false)}
                     className="text-stone-400 hover:text-stone-800"
+                    aria-label="Close add product form"
                   >
                     <X className="w-5 h-5" />
                   </button>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-3">
+
+                  {/* PRODUCT ID */}
                   <input
                     value={String(newProduct.id || '')}
                     onChange={(e) =>
@@ -317,6 +342,7 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm"
                   />
 
+                  {/* PRODUCT NAME */}
                   <input
                     value={String(newProduct.name || '')}
                     onChange={(e) =>
@@ -329,6 +355,7 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm"
                   />
 
+                  {/* TAGLINE */}
                   <input
                     value={String(newProduct.tagline || '')}
                     onChange={(e) =>
@@ -341,8 +368,11 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm"
                   />
 
+                  {/* PRICE */}
                   <input
                     type="number"
+                    min="0"
+                    step="0.01"
                     value={Number(newProduct.price || 0)}
                     onChange={(e) =>
                       setNewProduct({
@@ -354,6 +384,7 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm"
                   />
 
+                  {/* IMAGE */}
                   <input
                     value={String(newProduct.image || '')}
                     onChange={(e) =>
@@ -366,6 +397,7 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm sm:col-span-2"
                   />
 
+                  {/* DESCRIPTION */}
                   <textarea
                     value={String(newProduct.description || '')}
                     onChange={(e) =>
@@ -379,8 +411,10 @@ export function AdminDashboard({
                     className="border rounded-xl px-3 py-2 text-sm sm:col-span-2"
                   />
 
+                  {/* STOCK */}
                   <input
                     type="number"
+                    min="0"
                     value={Number(newProduct.stockCount || 0)}
                     onChange={(e) =>
                       setNewProduct({
@@ -391,21 +425,36 @@ export function AdminDashboard({
                     placeholder="Stock count"
                     className="border rounded-xl px-3 py-2 text-sm"
                   />
+
+                  {/* CATEGORY */}
+                  <input
+                    value={String(newProduct.category || '')}
+                    onChange={(e) =>
+                      setNewProduct({
+                        ...newProduct,
+                        category: e.target.value as Product['category'],
+                      })
+                    }
+                    placeholder="Category"
+                    className="border rounded-xl px-3 py-2 text-sm"
+                  />
                 </div>
 
                 <button
+                  type="button"
                   onClick={createProduct}
                   disabled={saving}
                   className="mt-4 bg-green-600 text-white px-5 py-3 rounded-xl font-bold text-sm flex items-center gap-2 disabled:opacity-50"
                 >
                   <Save className="w-4 h-4" />
+
                   {saving ? 'Saving...' : 'Save New Product'}
                 </button>
               </div>
             </div>
           )}
 
-          {/* Product list */}
+          {/* PRODUCT LIST */}
           <div className="p-5">
             <div className="flex items-center justify-between mb-4">
               <div>
@@ -426,6 +475,7 @@ export function AdminDashboard({
               {products.length === 0 ? (
                 <div className="bg-white border border-dashed border-stone-300 rounded-2xl p-8 text-center">
                   <Package className="w-10 h-10 mx-auto text-stone-300 mb-2" />
+
                   <p className="font-bold text-stone-600">
                     No products loaded
                   </p>
@@ -438,6 +488,8 @@ export function AdminDashboard({
                   >
                     {editingProduct?.id === product.id ? (
                       <div className="space-y-3">
+
+                        {/* EDIT NAME */}
                         <input
                           value={editingProduct.name}
                           onChange={(e) =>
@@ -449,6 +501,7 @@ export function AdminDashboard({
                           className="w-full border rounded-xl px-3 py-2 text-sm font-bold"
                         />
 
+                        {/* EDIT TAGLINE */}
                         <input
                           value={editingProduct.tagline}
                           onChange={(e) =>
@@ -460,6 +513,7 @@ export function AdminDashboard({
                           className="w-full border rounded-xl px-3 py-2 text-sm"
                         />
 
+                        {/* EDIT DESCRIPTION */}
                         <textarea
                           value={editingProduct.description}
                           onChange={(e) =>
@@ -472,7 +526,9 @@ export function AdminDashboard({
                           className="w-full border rounded-xl px-3 py-2 text-sm"
                         />
 
+                        {/* EDIT PRICE AND STOCK */}
                         <div className="grid grid-cols-2 gap-3">
+
                           <div>
                             <label className="text-xs font-bold text-stone-500">
                               Price
@@ -480,6 +536,8 @@ export function AdminDashboard({
 
                             <input
                               type="number"
+                              min="0"
+                              step="0.01"
                               value={editingProduct.price}
                               onChange={(e) =>
                                 setEditingProduct({
@@ -498,53 +556,71 @@ export function AdminDashboard({
 
                             <input
                               type="number"
+                              min="0"
                               value={editingProduct.stockCount}
                               onChange={(e) =>
                                 setEditingProduct({
                                   ...editingProduct,
                                   stockCount: Number(e.target.value),
+                                  inStock: Number(e.target.value) > 0,
                                 })
                               }
                               className="w-full border rounded-xl px-3 py-2 text-sm"
                             />
                           </div>
+
                         </div>
 
+                        {/* EDIT BUTTONS */}
                         <div className="flex gap-2">
+
                           <button
+                            type="button"
                             onClick={saveProduct}
                             disabled={saving}
                             className="bg-green-600 text-white px-4 py-2 rounded-xl text-sm font-bold flex items-center gap-2 disabled:opacity-50"
                           >
                             <Save className="w-4 h-4" />
+
                             {saving ? 'Saving...' : 'Save'}
                           </button>
 
                           <button
+                            type="button"
                             onClick={() => setEditingProduct(null)}
                             className="bg-stone-100 text-stone-700 px-4 py-2 rounded-xl text-sm font-bold"
                           >
                             Cancel
                           </button>
+
                         </div>
                       </div>
                     ) : (
                       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+
+                        {/* PRODUCT IMAGE */}
                         <div className="w-16 h-16 rounded-xl bg-pink-50 overflow-hidden shrink-0">
+
                           {product.image ? (
                             <img
                               src={product.image}
                               alt={product.name}
                               className="w-full h-full object-cover"
+                              onError={(e) => {
+                                e.currentTarget.style.display = 'none';
+                              }}
                             />
                           ) : (
                             <div className="w-full h-full flex items-center justify-center text-2xl">
                               🍪
                             </div>
                           )}
+
                         </div>
 
+                        {/* PRODUCT DETAILS */}
                         <div className="flex-1 min-w-0">
+
                           <h4 className="font-extrabold text-stone-900">
                             {product.name}
                           </h4>
@@ -554,6 +630,7 @@ export function AdminDashboard({
                           </p>
 
                           <div className="flex flex-wrap items-center gap-2 mt-2">
+
                             <span className="text-xs font-bold bg-pink-50 text-pink-700 px-2 py-1 rounded-full">
                               R{product.price}
                             </span>
@@ -569,15 +646,23 @@ export function AdminDashboard({
                                 ? `${product.stockCount} in stock`
                                 : 'Out of stock'}
                             </span>
+
                           </div>
                         </div>
 
+                        {/* EDIT BUTTON */}
                         <button
-                          onClick={() => setEditingProduct({ ...product })}
+                          type="button"
+                          onClick={() => {
+                            setError('');
+                            setMessage('');
+                            setEditingProduct({ ...product });
+                          }}
                           className="bg-stone-900 text-white px-4 py-2 rounded-xl text-sm font-bold"
                         >
                           Edit
                         </button>
+
                       </div>
                     )}
                   </div>
@@ -586,23 +671,34 @@ export function AdminDashboard({
             </div>
           </div>
 
-          {/* Footer */}
+          {/* FOOTER */}
           <div className="border-t border-stone-200 px-5 py-4 flex justify-between items-center">
             <span className="text-xs text-stone-400">
               The Biscuit Plug • Baker Admin
             </span>
 
             <button
+              type="button"
               onClick={onClose}
               className="text-sm font-bold text-stone-600 hover:text-stone-900"
             >
               Close
             </button>
           </div>
+
         </div>
       </div>
     </div>
   );
 }
 
+/*
+ * IMPORTANT:
+ * This named export is required by App.tsx:
+ *
+ * import { AdminDashboard } from './components/AdminDashboard';
+ *
+ * The default export below also allows the component to be imported
+ * as a default export elsewhere.
+ */
 export default AdminDashboard;
