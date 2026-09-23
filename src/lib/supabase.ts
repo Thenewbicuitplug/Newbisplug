@@ -27,10 +27,17 @@ export interface SupabaseStatus {
 }
 
 /**
- * Check Supabase directly.
+ * Check the actual Supabase connection.
  *
- * The app is hosted on GitHub Pages, so we do not use
- * /api/supabase/status or any other local Express API route.
+ * The website is hosted on GitHub Pages, so this uses the
+ * Supabase browser client directly and does NOT use /api routes.
+ *
+ * Products are the primary connection test because the shop
+ * successfully loads its product inventory from Supabase.
+ *
+ * Orders and memes are checked separately so a problem with one
+ * table does not incorrectly make the whole Supabase connection
+ * appear offline.
  */
 export async function getBackendSupabaseStatus(): Promise<SupabaseStatus> {
   if (!isClientSupabaseConfigured || !supabase) {
@@ -45,37 +52,80 @@ export async function getBackendSupabaseStatus(): Promise<SupabaseStatus> {
   }
 
   try {
-    const [productsResult, ordersResult, memesResult] =
-      await Promise.all([
-        supabase.from('products').select('id').limit(1),
-        supabase.from('orders').select('id').limit(1),
-        supabase.from('memes').select('id').limit(1),
-      ]);
+    /*
+     * Products are the primary connection check.
+     *
+     * Your Admin Dashboard is already successfully loading
+     * products, so this is the most reliable test that the
+     * website can communicate with Supabase.
+     */
+    const productsResult = await supabase
+      .from('products')
+      .select('id')
+      .limit(1);
 
     const productsOk = !productsResult.error;
+
+    /*
+     * Check the other tables independently.
+     *
+     * These failures are reported in the status information,
+     * but they do not make the main Supabase connection appear
+     * disconnected when the products table is working.
+     */
+    const ordersResult = await supabase
+      .from('orders')
+      .select('id')
+      .limit(1);
+
+    const memesResult = await supabase
+      .from('memes')
+      .select('id')
+      .limit(1);
+
     const ordersOk = !ordersResult.error;
     const memesOk = !memesResult.error;
 
-    const firstError =
-      productsResult.error ||
-      ordersResult.error ||
-      memesResult.error ||
-      null;
+    /*
+     * Products working means the browser is successfully
+     * communicating with Supabase.
+     */
+    const connected = productsOk;
+
+    let firstError: string | undefined;
+
+    if (!productsOk) {
+      firstError =
+        productsResult.error?.message ||
+        'The Supabase products table could not be reached.';
+    } else if (!ordersOk) {
+      firstError =
+        ordersResult.error?.message ||
+        'The Supabase orders table could not be reached.';
+    } else if (!memesOk) {
+      firstError =
+        memesResult.error?.message ||
+        'The Supabase memes table could not be reached.';
+    }
 
     return {
       configured: true,
-      connected: productsOk && ordersOk && memesOk,
-      mode:
-        productsOk && ordersOk && memesOk
-          ? 'supabase-live'
-          : 'local-fallback',
+
+      connected,
+
+      mode: connected
+        ? 'supabase-live'
+        : 'local-fallback',
+
       url: supabaseUrl || null,
+
       tables: {
         products: productsOk,
         orders: ordersOk,
         memes: memesOk,
       },
-      error: firstError?.message,
+
+      error: firstError,
     };
   } catch (e: any) {
     return {
@@ -84,7 +134,8 @@ export async function getBackendSupabaseStatus(): Promise<SupabaseStatus> {
       mode: 'local-fallback',
       url: supabaseUrl || null,
       error:
-        e?.message || 'Unable to connect to Supabase.',
+        e?.message ||
+        'Unable to connect to Supabase.',
     };
   }
 }
