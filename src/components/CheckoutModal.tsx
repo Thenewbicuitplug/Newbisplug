@@ -25,7 +25,7 @@ interface CheckoutModalProps {
 
 // TEST WhatsApp number
 // South Africa: 069 262 4943 -> +27 69 262 4943
-const ORDER_WHATSAPP_NUMBER = '27692624943';
+const ORDER_WHATSAPP_NUMBER = '27721951861';
 
 export const CheckoutModal: React.FC<CheckoutModalProps> = ({
   isOpen,
